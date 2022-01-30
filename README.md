@@ -44,6 +44,6 @@ Background used under free use licence.
 
 # TO DO:
 
-- Could add another sound back 
+- Could add another sound bank 
 
 - Effect on key press as well as click
