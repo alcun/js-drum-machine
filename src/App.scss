@@ -1,0 +1,173 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Monoton&family=Press+Start+2P&display=swap');
+
+
+.App {
+  text-align: center;
+  .App-header {
+    background-image: url("bg15.jpg");
+    background-color: black;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    font-family: monospace;
+  }
+
+  .container {
+    background-image: url("bg10.jpg");
+    border-style: double;
+    border-color: black;
+    border-width: 5px;
+    padding: 25px;
+    min-width: 60vh;
+    border-radius: 10px;
+
+
+  }
+}
+
+.pad-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.grid {
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "drum-pad drum-pad drum-pad"
+    "drum-pad drum-pad drum-pad"
+    "drum-pad drum-pad drum-pad";
+}
+
+.display {
+  background-color: black;
+  border-radius: 10px;
+  color: green;
+  border: white 2px double;
+  font-family: 'Press Start 2P', cursive;
+
+
+}
+
+#reversedRange {
+  direction: rtl;
+}
+
+.drum-pad {
+  width: auto;
+  border: 2px solid green;
+  background-color: black;
+  padding: calc(50px + 2vmin);
+  color: green;
+  font-family: 'Bungee', cursive;
+  font-size: calc(4px + 2vmin);
+
+
+}
+
+@media screen and (max-width: 780px) {
+  .drum-pad {
+
+    padding: calc(20px + 2vmin);
+  ;
+  }
+}
+
+.sequence {
+  font-size: calc(2px + 2vmin);
+  color: green;
+  margin: 20px;
+  padding: 5px;
+  min-height: 20vh;
+  min-width: 30vh;
+
+}
+
+#sequenceScreen{
+  margin-top: 50px;
+}
+
+footer {
+  background-color: transparent;
+  position: fixed;
+  height: calc(10px + 2vmin);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  font-size: calc(2px + 2vmin);
+  font-family: monospace;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+.btn {
+  margin: 5px;
+}
+
+.sequence-btn {
+  
+}
+
+.nobCol{
+color: green;
+background-color: black;
+margin-right: 10px;
+margin-left: 10px;
+border-radius: 10px;
+border: white 2px double;
+padding: 8px;
+font-family: 'Press Start 2P', cursive;
+min-height: 14vh;
+
+}
+
+.nobLabel{
+  font-size: calc(2px + 2vmin);
+
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 10px;
+  background: #000;
+  outline: none;
+  border: 5px solid green;
+  border-radius: 8px;
+}
+
+
+/* for chrome/safari */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #000;
+  cursor: pointer;
+  border: 5px solid green;
+  border-radius: 4px;
+}
+
+/* for firefox */
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #000;
+  cursor: pointer;
+  border: 5px solid green;
+  border-radius: 4px;
+}
