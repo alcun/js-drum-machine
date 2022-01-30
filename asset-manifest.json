@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/js-drum-machine/static/css/main.5209db1b.css",
+    "main.js": "/js-drum-machine/static/js/main.fbf0f4ff.js",
+    "static/js/787.c419f7a1.chunk.js": "/js-drum-machine/static/js/787.c419f7a1.chunk.js",
+    "static/media/bg15.jpg": "/js-drum-machine/static/media/bg15.83a177a7fd89c0d1367f.jpg",
+    "static/media/bg10.jpg": "/js-drum-machine/static/media/bg10.077c0e2a8723cac05406.jpg",
+    "static/media/scifi808.mp3": "/js-drum-machine/static/media/scifi808.ac4b5c6406c1a83de3cd.mp3",
+    "static/media/kick2.mp3": "/js-drum-machine/static/media/kick2.e2272026ceb76841ba2f.mp3",
+    "static/media/bass808.mp3": "/js-drum-machine/static/media/bass808.93dd557238eb5bdc520a.mp3",
+    "static/media/kick1.mp3": "/js-drum-machine/static/media/kick1.b702d270eb34fe5ba6d1.mp3",
+    "static/media/hat open.mp3": "/js-drum-machine/static/media/hat open.6e58a6dcd3b4382d6879.mp3",
+    "static/media/snare.mp3": "/js-drum-machine/static/media/snare.940a697056042ec9b740.mp3",
+    "static/media/cowbell.mp3": "/js-drum-machine/static/media/cowbell.3a7f1d501d62b311fafc.mp3",
+    "static/media/clap.mp3": "/js-drum-machine/static/media/clap.1389acd8870889f6601e.mp3",
+    "static/media/hat closed.mp3": "/js-drum-machine/static/media/hat closed.17a3bfeaf57f1e1f85d3.mp3",
+    "index.html": "/js-drum-machine/index.html",
+    "main.5209db1b.css.map": "/js-drum-machine/static/css/main.5209db1b.css.map",
+    "main.fbf0f4ff.js.map": "/js-drum-machine/static/js/main.fbf0f4ff.js.map",
+    "787.c419f7a1.chunk.js.map": "/js-drum-machine/static/js/787.c419f7a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5209db1b.css",
+    "static/js/main.fbf0f4ff.js"
+  ]
+}
