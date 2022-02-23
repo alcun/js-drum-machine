@@ -1,7 +1,6 @@
 # A Javascript Drum Machine - Single Page App
 
-This is a single page web app built to function as a drum machine and pass a series of tests from the freecodecamp.org Front End Development Libraries Certification:
-https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-javascript-calculator
+This is a single page web app built to function as a drum machine and sequencer.
 
 It takes input of the keys pressed and plays the stored sound.
 
@@ -11,7 +10,7 @@ You can use the sliders to adjust playback speed and volume.
 
 You can see it in action at : https://alcun.github.io/js-drum-machine
 
-# It uses a variety of languages and frameworks:
+## It uses a variety of languages and frameworks:
 
 - HTML 5
 
@@ -19,7 +18,7 @@ You can see it in action at : https://alcun.github.io/js-drum-machine
 
 - JS (Primarily React and hooks to generate HTML for component functionality and audio states)
 
-It was developed using:
+## It was developed using:
 
 - GitBash and Linux Mint
 
@@ -37,13 +36,13 @@ Background used under free use licence.
 
 
 
-# CURRENT VERSION: 
+## CURRENT VERSION: 
 - Works as intended, passes tests 
 
 
 
-# TO DO:
+## TO DO:
 
 - Could add another sound bank 
 
-- Effect on key press as well as click
+- Active button effect on key press as well as click
